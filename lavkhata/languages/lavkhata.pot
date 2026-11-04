@@ -1,0 +1,1304 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: Lavkhata\n"
+
+#: includes/admin/class-orders.php
+msgid "%1$d parcel · %2$s delivered"
+msgid_plural "%1$d parcels · %2$s delivered"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-gateway-advance.php
+msgid "%1$s (%2$s): %3$s"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "%1$s (about $%2$s)"
+msgstr ""
+
+#: includes/class-courier-sync.php
+msgid "%1$s booking failed: %2$s"
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "%1$s from %2$s, TrxID %3$s"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "%d order delivered"
+msgid_plural "%d orders delivered"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-orders.php
+msgid "%d order done."
+msgid_plural "%d orders done."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-admin.php
+msgid "%d returned"
+msgid_plural "%d returned"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-admin.php
+msgid "%s of sales"
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "%s: not available"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "API key"
+msgstr ""
+
+#: includes/class-ledger.php
+msgid "Ad spend (with VAT)"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Add"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Add ad spend"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Add expense or other income"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Add the pixel to your site (PageView, ViewContent, AddToCart, InitiateCheckout). Turn off if another plugin already adds it."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Add your Meta pixel and Conversions API token"
+msgstr ""
+
+#: includes/couriers/class-pathao.php
+msgid "Add your Pathao API credentials in Lavkhata settings."
+msgstr ""
+
+#: includes/couriers/class-steadfast.php
+msgid "Add your Steadfast API key and secret key in Lavkhata settings."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Add your ad spend"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Ads"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Ads & Expenses"
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "Advance + Cash on Delivery (Lavkhata)"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Advance amount"
+msgstr ""
+
+#: includes/class-ledger.php
+msgid "Advance kept from returned orders"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Advance marked as received."
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "Advance of %s verified."
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "Advance paid: %1$s. Amount to pay on delivery: %2$s."
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "Advance payment"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Advance uses the \"Advance + Cash on Delivery\" payment method. Set your bKash/Nagad numbers in WooCommerce → Settings → Payments."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Advance value"
+msgstr ""
+
+#: includes/class-cod-guard.php
+msgid "Advance: %s."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Allow cash on delivery"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Amount"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Amount (BDT)"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Amount (৳)"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Are your ads profitable?"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Ask for advance"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Ask for an advance, rest on delivery"
+msgstr ""
+
+#: includes/class-settings.php
+msgid "Assalamu alaikum {name}, thank you for your order #{order} from {shop} ({total}). Please tap this link to confirm: {link}"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Auto-update order status"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Based on sales in the last %1$d days. Reorder date allows %2$d days for your supplier; suggested quantity covers %3$d days. Change these in Settings → Restock."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Below this, the customer is risky."
+msgstr ""
+
+#: includes/couriers/class-courier.php
+msgid "Booked"
+msgstr ""
+
+#: includes/class-courier-sync.php
+msgid "Booked with %1$s. Consignment %2$s. COD to collect: %3$s."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Break-even = profit before ads from delivered and returned orders, divided by all orders placed. If you pay less than this per purchase, ads make money."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Break-even cost per purchase"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Browser pixel"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Buy enough for (days)"
+msgstr ""
+
+#: includes/class-labels.php
+msgid "COD %s"
+msgstr ""
+
+#: includes/class-ledger.php
+msgid "COD collection fee"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "COD collection fee (%)"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "COD money waiting for payout"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "COD protection"
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "COD to collect: %s"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Campaign name"
+msgstr ""
+
+#: includes/couriers/class-courier.php
+msgid "Cancelled"
+msgstr ""
+
+#: includes/class-cod-guard.php
+msgid "Cash on delivery is not available for this phone number. Please pay online to place the order."
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "Check"
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "Check again"
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "Check courier status"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Check each customer's delivery record at checkout."
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "Check status now"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Checking…"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Client ID"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Client secret"
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "Confirm"
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "Confirmation"
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "Confirmed"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Connect Steadfast or Pathao"
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "Connect a courier"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Conversions API access token"
+msgstr ""
+
+#: includes/admin/class-products.php
+msgid "Cost price"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Costs"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Could not check"
+msgstr ""
+
+#: includes/couriers/class-pathao.php
+msgid "Could not log in to Pathao. Check your Pathao API credentials."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Count the advance as income when a parcel is returned."
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "Courier"
+msgstr ""
+
+#: includes/class-courier-sync.php
+msgid "Courier status: %s"
+msgstr ""
+
+#: includes/class-courier-sync.php
+msgid "Courier update: %1$s. Report-only mode is on, so the order was not changed. With Auto-update it would be marked \"%2$s\"."
+msgstr ""
+
+#: includes/class-courier-sync.php
+msgid "Courier update: %s"
+msgstr ""
+
+#: includes/class-courier-sync.php
+msgid "Courier update: %s."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Courier updates"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Couriers"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Currency"
+msgstr ""
+
+#: includes/class-helpers.php
+msgid "Customer"
+msgstr ""
+
+#: includes/class-whatsapp-confirm.php
+msgid "Customer confirmed the order on WhatsApp."
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "Customer record"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Customers with fewer parcels are not judged."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Date"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Days left"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Default courier"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Delete this entry?"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Deleted."
+msgstr ""
+
+#: includes/couriers/class-courier.php
+msgid "Delivered"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Delivered sales"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Delivery charge"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Delivery charge inside Dhaka (৳)"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Delivery charge outside Dhaka (৳)"
+msgstr ""
+
+#: includes/class-ledger.php
+msgid "Delivery charges"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Delivery rate"
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "Description"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Dollar rate (৳ per $1)"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Dollars are converted at ৳%s (change in Settings → Costs)."
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "Enable"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Enter an amount greater than zero."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Enter cost prices on your products"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Entries"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Events Manager → your pixel → Settings → Generate access token."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Expense (rent, salary, software…)"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Export CSV for your accountant"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Find these in Pathao merchant panel → Developers API → Merchant API Credentials."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Find these in your Steadfast merchant panel → API."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Finish setup"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Fixed taka"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "For risky customers"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "General"
+msgstr ""
+
+#: includes/couriers/class-courier.php
+msgid "HTTP error %d"
+msgstr ""
+
+#: includes/class-courier-sync.php
+msgid "Handed to courier."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Hold new COD orders"
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "I received it"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "In stock"
+msgstr ""
+
+#: includes/couriers/class-courier.php
+msgid "In transit"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Income"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Items on label"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Judge after this many parcels"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Keep advance on returns"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Label size"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Last 6 months"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Last full courier check: %s ago."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Lavkhata"
+msgstr ""
+
+#: lavkhata.php
+msgid "Lavkhata needs WooCommerce. Please install and activate WooCommerce first."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Lavkhata overview"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Lavkhata settings"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Leave empty for the default. You can use {name} {order} {total} {cod} {items} {shop} {link}"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Leave empty to use the default message (shown in the site language)."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Leave empty to use your first store. \"Test connection\" lists your stores."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Line"
+msgstr ""
+
+#: includes/class-whatsapp-confirm.php
+msgid "Link not valid"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "List the products and quantities on each label."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Look at sales from the last (days)"
+msgstr ""
+
+#: includes/class-settings.php
+msgid "Many earlier parcels to this number were not received, so please pay a small advance to confirm this order. You pay the rest on delivery."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Marketing and overheads"
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "Merchant (customer uses Payment)"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Merchant email"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Merchant password"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Message"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Message shown at checkout"
+msgstr ""
+
+#: includes/class-meta-capi.php
+msgid "Meta Conversions API error: %s"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Meta ads"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Minimum delivery rate (%)"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Mode: Auto-update (courier status changes your orders)."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Mode: Report only (courier status is shown but orders are not changed)."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Month"
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "Nagad number"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Net profit"
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "New customer"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "New customers (no record)"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "No orders yet this month."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "No products track stock yet. Turn on \"Manage stock\" on your products to use the planner."
+msgstr ""
+
+#: includes/class-restock.php
+msgid "No recent sales"
+msgstr ""
+
+#: includes/couriers/class-pathao.php
+msgid "No status from Pathao."
+msgstr ""
+
+#: includes/couriers/class-steadfast.php
+msgid "No status from Steadfast."
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "No valid phone"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Note"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Nothing added for this month yet."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Nothing needs restocking this week."
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "Number type"
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "Number you paid from"
+msgstr ""
+
+#: includes/class-restock.php
+msgid "OK"
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "Offer advance + COD to risky customers"
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "On delivery:"
+msgstr ""
+
+#: includes/couriers/class-courier.php
+msgid "On hold"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Online payment fee (%)"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Only while testing in Events Manager. Leave empty for live."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Order"
+msgstr ""
+
+#: includes/class-courier-sync.php
+msgid "Order #%1$s booked with %2$s (%3$s)."
+msgstr ""
+
+#: includes/class-courier-sync.php
+msgid "Order #%1$s is already booked (consignment %2$s)."
+msgstr ""
+
+#: includes/class-courier-sync.php
+msgid "Order #%1$s: %2$s"
+msgstr ""
+
+#: includes/class-profit.php
+msgid "Order #%s"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Order %d"
+msgstr ""
+
+#: includes/class-whatsapp-confirm.php
+msgid "Order confirmed"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Order costs"
+msgstr ""
+
+#: includes/class-courier-sync.php
+msgid "Order not found."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Order qty"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Orders placed"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Other"
+msgstr ""
+
+#: includes/class-ledger.php
+msgid "Other expenses"
+msgstr ""
+
+#: includes/class-ledger.php
+msgid "Other income"
+msgstr ""
+
+#: includes/class-restock.php
+msgid "Out of stock"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Overview"
+msgstr ""
+
+#: includes/class-labels.php
+msgid "PAID"
+msgstr ""
+
+#: includes/class-ledger.php
+msgid "Packaging"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Packaging per order (৳)"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Parcels this phone number received or returned across Pathao."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Parcels this phone number received or returned across Steadfast."
+msgstr ""
+
+#: includes/couriers/class-courier.php
+msgid "Partly delivered"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Paste this as the Auth token (Bearer) in Steadfast → Webhook, with the URL above."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Paste this as the webhook secret in Pathao merchant panel → Developers API → Webhook."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Pathao connected. Stores: %s"
+msgstr ""
+
+#: includes/couriers/class-pathao.php
+msgid "Pathao did not return a consignment ID."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Pathao: could not log in. Check client ID, secret, email and password."
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "Pay advance now, rest on delivery"
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "Pay now:"
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "Payment"
+msgstr ""
+
+#: includes/class-ledger.php
+msgid "Payment gateway fees"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Per day"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Percent of order"
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "Personal (customer uses Send Money)"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Pixel (dataset) ID"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Platform"
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "Please enter a valid transaction ID."
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "Please enter the mobile number you sent the advance from."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Plugin language"
+msgstr ""
+
+#: includes/class-labels.php
+msgid "Print"
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "Print label"
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "Print shipping labels"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Product"
+msgstr ""
+
+#: includes/class-ledger.php
+msgid "Product cost"
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "Profit"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Profit & Loss"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Profit before ads"
+msgstr ""
+
+#: includes/class-meta-capi.php
+msgid "Purchase sent to Meta (Conversions API)."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Put new cash-on-delivery orders \"On hold\" until the customer taps the WhatsApp confirm link."
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "Real profit"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Recommended: when delivered. Meta then learns from people who really pay, not fake COD orders."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Reorder by"
+msgstr ""
+
+#: includes/class-restock.php
+msgid "Reorder now"
+msgstr ""
+
+#: includes/class-restock.php
+msgid "Reorder this week"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Report only"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Restock"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Restock & labels"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Restock planner"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Restock soon"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Return charge (% of delivery charge)"
+msgstr ""
+
+#: includes/class-ledger.php
+msgid "Return charges"
+msgstr ""
+
+#: includes/class-install.php
+msgid "Returned"
+msgstr ""
+
+#: includes/class-install.php
+msgid "Returned <span class=\"count\">(%s)</span>"
+msgid_plural "Returned <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-gateway-advance.php
+msgid "Rocket number"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "SKU"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Sales"
+msgstr ""
+
+#: includes/class-ledger.php
+msgid "Sales (delivered orders)"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Sales count only when the courier delivers. Returned orders count their delivery, return and packaging costs. Ad spend includes VAT."
+msgstr ""
+
+#: includes/admin/class-products.php
+msgid "Same as parent"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Same as site"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Sandbox"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Saved — leave empty to keep"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Saved."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Secret key"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "See all stock"
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "Send Money"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Send Purchase when"
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "Send the advance by Send Money to one of the numbers below, then enter the number you paid from and the transaction ID."
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "Send to %s"
+msgstr ""
+
+#: includes/couriers/class-pathao.php
+msgid "Set your Pathao store ID in Lavkhata settings."
+msgstr ""
+
+#: includes/class-plugin.php
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Settings saved."
+msgstr ""
+
+#: includes/class-labels.php
+msgid "Shipping labels"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Shop phone on label"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Show"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Show a WhatsApp button on new orders that opens a ready message with a one-tap confirm link."
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "Shown only to customers with a poor delivery record. They send a small advance by bKash, Nagad or Rocket and pay the rest on delivery. You check the transaction ID and confirm the order."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Sold"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Some hosts remove the Authorization header. If Steadfast webhooks fail, ask your host to pass it through, or rely on the nightly status check."
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "Some products have no cost price, so profit looks higher than it is."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Start with \"Report only\": courier status is shown on each order but your order statuses are not changed. Switch to Auto-update when you are happy."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Status"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Steadfast balance"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Steadfast connected. Current balance: %s"
+msgstr ""
+
+#: includes/couriers/class-steadfast.php
+msgid "Steadfast did not return a consignment ID."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Steadfast: could not connect. Check the API key and secret key."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Store ID"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Supplier delivery time (days)"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Taka for \"Fixed\", percent for \"Percent\"."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Test %s connection"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Test event code"
+msgstr ""
+
+#: includes/class-whatsapp-confirm.php
+msgid "Thank you! Order #%1$s is confirmed. We will send it soon. Please keep %2$s ready for the delivery person."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "The courier delivers the order"
+msgstr ""
+
+#: includes/couriers/class-pathao.php
+msgid "The customer phone number is not a valid Bangladeshi mobile number."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "The full courier check runs every night."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "The order is placed"
+msgstr ""
+
+#: includes/class-whatsapp-confirm.php
+msgid "This confirmation link is not valid or has expired. Please contact the shop."
+msgstr ""
+
+#: includes/class-courier-sync.php
+msgid "This order is not booked with a courier."
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "Title"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Today"
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "Transaction ID (TrxID)"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Turn off cash on delivery (pay online only)"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Turn on COD protection"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Type"
+msgstr ""
+
+#: includes/class-courier-sync.php
+msgid "Unknown courier."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Use Pathao record"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Use Pathao test server."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Use Steadfast record"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Use your own shop history"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Used when the courier does not send the real charge."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "VAT %"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "VAT on ads (%)"
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "Verified"
+msgstr ""
+
+#: includes/class-whatsapp-confirm.php
+msgid "Waiting for the customer to confirm on WhatsApp."
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "Waiting to verify advance of %1$s from %2$s (TrxID %3$s)."
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "We received your advance details (%1$s). We will confirm your order after checking the payment. Pay %2$s on delivery."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Webhook URL"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Webhook auth token"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Webhook secret"
+msgstr ""
+
+#: includes/admin/class-products.php
+msgid "What one unit costs you to buy or make. Lavkhata uses it to show real profit."
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "WhatsApp"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "WhatsApp confirm"
+msgstr ""
+
+#: includes/class-install.php
+msgid "With courier"
+msgstr ""
+
+#: includes/class-install.php
+msgid "With courier <span class=\"count\">(%s)</span>"
+msgid_plural "With courier <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-admin.php
+msgid "With courier now"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Works even without courier keys."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "You do not have permission to do this."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Your ads are profitable"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Your ads cost more than each order earns"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Your card's rate for paying ads."
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "Your cost per purchase (with VAT)"
+msgstr ""
+
+#: includes/admin/class-orders.php
+msgid "Your shop"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "bKash / gateway fee on money paid before delivery."
+msgstr ""
+
+#: includes/class-gateway-advance.php
+msgid "bKash number"
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "none found"
+msgstr ""
+
+#: includes/admin/class-admin.php
+msgid "parcels booked this month and not finished"
+msgstr ""

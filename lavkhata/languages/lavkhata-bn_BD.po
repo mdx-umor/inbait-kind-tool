@@ -1,0 +1,983 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: bn_BD\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%1$d parcel · %2$s delivered"
+msgid_plural "%1$d parcels · %2$s delivered"
+msgstr[0] "%1$dটি পার্সেল · %2$s ডেলিভারি"
+msgstr[1] "%1$dটি পার্সেল · %2$s ডেলিভারি"
+
+msgid "%1$s (%2$s): %3$s"
+msgstr "%1$s (%2$s): %3$s"
+
+msgid "%1$s (about $%2$s)"
+msgstr "%1$s (প্রায় $%2$s)"
+
+msgid "%1$s booking failed: %2$s"
+msgstr "%1$s বুকিং হয়নি: %2$s"
+
+msgid "%1$s from %2$s, TrxID %3$s"
+msgstr "%2$s থেকে %1$s, TrxID %3$s"
+
+msgid "%d order delivered"
+msgid_plural "%d orders delivered"
+msgstr[0] "%dটি অর্ডার ডেলিভারি হয়েছে"
+msgstr[1] "%dটি অর্ডার ডেলিভারি হয়েছে"
+
+msgid "%d order done."
+msgid_plural "%d orders done."
+msgstr[0] "%dটি অর্ডার সম্পন্ন।"
+msgstr[1] "%dটি অর্ডার সম্পন্ন।"
+
+msgid "%d returned"
+msgid_plural "%d returned"
+msgstr[0] "%dটি রিটার্ন"
+msgstr[1] "%dটি রিটার্ন"
+
+msgid "%s of sales"
+msgstr "বিক্রির %s"
+
+msgid "%s: not available"
+msgstr "%s: পাওয়া যায়নি"
+
+msgid "API key"
+msgstr "API key"
+
+msgid "Ad spend (with VAT)"
+msgstr "বিজ্ঞাপন খরচ (ভ্যাটসহ)"
+
+msgid "Add"
+msgstr "যোগ করুন"
+
+msgid "Add ad spend"
+msgstr "বিজ্ঞাপন খরচ যোগ করুন"
+
+msgid "Add expense or other income"
+msgstr "খরচ বা অন্য আয় যোগ করুন"
+
+msgid "Add the pixel to your site (PageView, ViewContent, AddToCart, InitiateCheckout). Turn off if another plugin already adds it."
+msgstr "সাইটে পিক্সেল যোগ করুন (PageView, ViewContent, AddToCart, InitiateCheckout)। অন্য কোনো প্লাগইন আগে থেকেই যোগ করলে এটি বন্ধ রাখুন।"
+
+msgid "Add your Meta pixel and Conversions API token"
+msgstr "Meta পিক্সেল ও Conversions API টোকেন দিন"
+
+msgid "Add your Pathao API credentials in Lavkhata settings."
+msgstr "লাভখাতা সেটিংসে Pathao API তথ্য দিন।"
+
+msgid "Add your Steadfast API key and secret key in Lavkhata settings."
+msgstr "লাভখাতা সেটিংসে Steadfast API key ও secret key দিন।"
+
+msgid "Add your ad spend"
+msgstr "বিজ্ঞাপন খরচ যোগ করুন"
+
+msgid "Ads"
+msgstr "বিজ্ঞাপন"
+
+msgid "Ads & Expenses"
+msgstr "বিজ্ঞাপন ও খরচ"
+
+msgid "Advance + Cash on Delivery (Lavkhata)"
+msgstr "অগ্রিম + ক্যাশ অন ডেলিভারি (লাভখাতা)"
+
+msgid "Advance amount"
+msgstr "অগ্রিমের পরিমাণ"
+
+msgid "Advance kept from returned orders"
+msgstr "রিটার্ন অর্ডারের রাখা অগ্রিম"
+
+msgid "Advance marked as received."
+msgstr "অগ্রিম পাওয়া হিসেবে চিহ্নিত হয়েছে।"
+
+msgid "Advance of %s verified."
+msgstr "%s অগ্রিম যাচাই হয়েছে।"
+
+msgid "Advance paid: %1$s. Amount to pay on delivery: %2$s."
+msgstr "অগ্রিম দেওয়া হয়েছে: %1$s। ডেলিভারির সময় দিতে হবে: %2$s।"
+
+msgid "Advance payment"
+msgstr "অগ্রিম পেমেন্ট"
+
+msgid "Advance uses the \"Advance + Cash on Delivery\" payment method. Set your bKash/Nagad numbers in WooCommerce → Settings → Payments."
+msgstr "অগ্রিমের জন্য \"অগ্রিম + ক্যাশ অন ডেলিভারি\" পেমেন্ট পদ্ধতি ব্যবহার হয়। WooCommerce → Settings → Payments-এ আপনার বিকাশ/নগদ নম্বর দিন।"
+
+msgid "Advance value"
+msgstr "অগ্রিমের মান"
+
+msgid "Advance: %s."
+msgstr "অগ্রিম: %s।"
+
+msgid "Allow cash on delivery"
+msgstr "ক্যাশ অন ডেলিভারি চালু রাখুন"
+
+msgid "Amount"
+msgstr "পরিমাণ"
+
+msgid "Amount (BDT)"
+msgstr "পরিমাণ (টাকা)"
+
+msgid "Amount (৳)"
+msgstr "পরিমাণ (৳)"
+
+msgid "Are your ads profitable?"
+msgstr "আপনার বিজ্ঞাপনে লাভ হচ্ছে?"
+
+msgid "Ask for advance"
+msgstr "অগ্রিম চাইবে"
+
+msgid "Ask for an advance, rest on delivery"
+msgstr "অগ্রিম নিন, বাকিটা ডেলিভারিতে"
+
+msgid "Assalamu alaikum {name}, thank you for your order #{order} from {shop} ({total}). Please tap this link to confirm: {link}"
+msgstr "আসসালামু আলাইকুম {name}, {shop} থেকে অর্ডার #{order} ({total}) করার জন্য ধন্যবাদ। কনফার্ম করতে এই লিংকে ট্যাপ করুন: {link}"
+
+msgid "Auto-update order status"
+msgstr "অর্ডার স্ট্যাটাস নিজে থেকে আপডেট হবে"
+
+msgid "Based on sales in the last %1$d days. Reorder date allows %2$d days for your supplier; suggested quantity covers %3$d days. Change these in Settings → Restock."
+msgstr "গত %1$d দিনের বিক্রির ভিত্তিতে। রিঅর্ডারের তারিখে সাপ্লায়ারের জন্য %2$d দিন রাখা হয়েছে; প্রস্তাবিত পরিমাণে %3$d দিন চলবে। সেটিংস → রিস্টক-এ বদলাতে পারবেন।"
+
+msgid "Below this, the customer is risky."
+msgstr "এর নিচে হলে কাস্টমার ঝুঁকিপূর্ণ।"
+
+msgid "Booked"
+msgstr "বুক হয়েছে"
+
+msgid "Booked with %1$s. Consignment %2$s. COD to collect: %3$s."
+msgstr "%1$s-এ বুক হয়েছে। কনসাইনমেন্ট %2$s। COD আদায় করতে হবে: %3$s।"
+
+msgid "Break-even = profit before ads from delivered and returned orders, divided by all orders placed. If you pay less than this per purchase, ads make money."
+msgstr "ব্রেক-ইভেন = ডেলিভারি ও রিটার্ন অর্ডার থেকে বিজ্ঞাপনের আগের লাভ ÷ মোট অর্ডার। প্রতি পারচেজে এর চেয়ে কম খরচ হলে বিজ্ঞাপনে লাভ হচ্ছে।"
+
+msgid "Break-even cost per purchase"
+msgstr "প্রতি পারচেজে ব্রেক-ইভেন খরচ"
+
+msgid "Browser pixel"
+msgstr "ব্রাউজার পিক্সেল"
+
+msgid "Buy enough for (days)"
+msgstr "কত দিনের জন্য কিনবেন (দিন)"
+
+msgid "COD %s"
+msgstr "COD %s"
+
+msgid "COD collection fee"
+msgstr "COD চার্জ"
+
+msgid "COD collection fee (%)"
+msgstr "COD চার্জ (%)"
+
+msgid "COD money waiting for payout"
+msgstr "পেমেন্টের অপেক্ষায় থাকা COD টাকা"
+
+msgid "COD protection"
+msgstr "COD সুরক্ষা"
+
+msgid "COD to collect: %s"
+msgstr "COD আদায়: %s"
+
+msgid "Campaign name"
+msgstr "ক্যাম্পেইনের নাম"
+
+msgid "Cancelled"
+msgstr "বাতিল"
+
+msgid "Cash on delivery is not available for this phone number. Please pay online to place the order."
+msgstr "এই ফোন নম্বরে ক্যাশ অন ডেলিভারি নেই। অর্ডার করতে অনলাইনে পেমেন্ট করুন।"
+
+msgid "Check"
+msgstr "চেক করুন"
+
+msgid "Check again"
+msgstr "আবার চেক করুন"
+
+msgid "Check courier status"
+msgstr "কুরিয়ার স্ট্যাটাস চেক করুন"
+
+msgid "Check each customer's delivery record at checkout."
+msgstr "চেকআউটে প্রতিটি কাস্টমারের ডেলিভারি রেকর্ড চেক করুন।"
+
+msgid "Check status now"
+msgstr "এখনই স্ট্যাটাস দেখুন"
+
+msgid "Checking…"
+msgstr "চেক হচ্ছে…"
+
+msgid "Client ID"
+msgstr "Client ID"
+
+msgid "Client secret"
+msgstr "Client secret"
+
+msgid "Confirm"
+msgstr "কনফার্ম"
+
+msgid "Confirmation"
+msgstr "কনফার্মেশন"
+
+msgid "Confirmed"
+msgstr "কনফার্মড"
+
+msgid "Connect Steadfast or Pathao"
+msgstr "Steadfast বা Pathao যুক্ত করুন"
+
+msgid "Connect a courier"
+msgstr "কুরিয়ার যুক্ত করুন"
+
+msgid "Conversions API access token"
+msgstr "Conversions API অ্যাক্সেস টোকেন"
+
+msgid "Cost price"
+msgstr "কেনা দাম"
+
+msgid "Costs"
+msgstr "খরচ"
+
+msgid "Could not check"
+msgstr "চেক করা যায়নি"
+
+msgid "Could not log in to Pathao. Check your Pathao API credentials."
+msgstr "Pathao-তে লগইন হয়নি। Pathao API তথ্য ঠিক আছে কিনা দেখুন।"
+
+msgid "Count the advance as income when a parcel is returned."
+msgstr "পার্সেল রিটার্ন হলে অগ্রিমকে আয় হিসেবে ধরুন।"
+
+msgid "Courier"
+msgstr "কুরিয়ার"
+
+msgid "Courier status: %s"
+msgstr "কুরিয়ার স্ট্যাটাস: %s"
+
+msgid "Courier update: %1$s. Report-only mode is on, so the order was not changed. With Auto-update it would be marked \"%2$s\"."
+msgstr "কুরিয়ার আপডেট: %1$s। শুধু-রিপোর্ট মোড চালু, তাই অর্ডার বদলানো হয়নি। অটো-আপডেট চালু থাকলে \"%2$s\" হতো।"
+
+msgid "Courier update: %s"
+msgstr "কুরিয়ার আপডেট: %s"
+
+msgid "Courier update: %s."
+msgstr "কুরিয়ার আপডেট: %s।"
+
+msgid "Courier updates"
+msgstr "কুরিয়ার আপডেট"
+
+msgid "Couriers"
+msgstr "কুরিয়ার"
+
+msgid "Currency"
+msgstr "মুদ্রা"
+
+msgid "Customer"
+msgstr "কাস্টমার"
+
+msgid "Customer confirmed the order on WhatsApp."
+msgstr "কাস্টমার হোয়াটসঅ্যাপে অর্ডার কনফার্ম করেছেন।"
+
+msgid "Customer record"
+msgstr "কাস্টমার রেকর্ড"
+
+msgid "Customers with fewer parcels are not judged."
+msgstr "এর চেয়ে কম পার্সেল হলে কাস্টমারকে যাচাই করা হয় না।"
+
+msgid "Date"
+msgstr "তারিখ"
+
+msgid "Days left"
+msgstr "বাকি দিন"
+
+msgid "Default courier"
+msgstr "ডিফল্ট কুরিয়ার"
+
+msgid "Delete"
+msgstr "মুছুন"
+
+msgid "Delete this entry?"
+msgstr "এই এন্ট্রি মুছবেন?"
+
+msgid "Deleted."
+msgstr "মুছে ফেলা হয়েছে।"
+
+msgid "Delivered"
+msgstr "ডেলিভারি হয়েছে"
+
+msgid "Delivered sales"
+msgstr "ডেলিভারি হওয়া বিক্রি"
+
+msgid "Delivery charge"
+msgstr "ডেলিভারি চার্জ"
+
+msgid "Delivery charge inside Dhaka (৳)"
+msgstr "ঢাকার ভেতরে ডেলিভারি চার্জ (৳)"
+
+msgid "Delivery charge outside Dhaka (৳)"
+msgstr "ঢাকার বাইরে ডেলিভারি চার্জ (৳)"
+
+msgid "Delivery charges"
+msgstr "ডেলিভারি চার্জ"
+
+msgid "Delivery rate"
+msgstr "ডেলিভারি রেট"
+
+msgid "Description"
+msgstr "বিবরণ"
+
+msgid "Dollar rate (৳ per $1)"
+msgstr "ডলার রেট ($১ = ৳)"
+
+msgid "Dollars are converted at ৳%s (change in Settings → Costs)."
+msgstr "ডলার ৳%s রেটে টাকায় হিসাব হয় (সেটিংস → খরচ-এ বদলান)।"
+
+msgid "Enable"
+msgstr "চালু করুন"
+
+msgid "Enter an amount greater than zero."
+msgstr "শূন্যের বেশি পরিমাণ দিন।"
+
+msgid "Enter cost prices on your products"
+msgstr "প্রোডাক্টে কেনা দাম দিন"
+
+msgid "Entries"
+msgstr "এন্ট্রি"
+
+msgid "Events Manager → your pixel → Settings → Generate access token."
+msgstr "Events Manager → আপনার পিক্সেল → Settings → Generate access token।"
+
+msgid "Expense (rent, salary, software…)"
+msgstr "খরচ (ভাড়া, বেতন, সফটওয়্যার…)"
+
+msgid "Export CSV for your accountant"
+msgstr "হিসাবরক্ষকের জন্য CSV ডাউনলোড"
+
+msgid "Find these in Pathao merchant panel → Developers API → Merchant API Credentials."
+msgstr "Pathao মার্চেন্ট প্যানেল → Developers API → Merchant API Credentials-এ পাবেন।"
+
+msgid "Find these in your Steadfast merchant panel → API."
+msgstr "Steadfast মার্চেন্ট প্যানেল → API-তে পাবেন।"
+
+msgid "Finish setup"
+msgstr "সেটআপ শেষ করুন"
+
+msgid "Fixed taka"
+msgstr "নির্দিষ্ট টাকা"
+
+msgid "For risky customers"
+msgstr "ঝুঁকিপূর্ণ কাস্টমারের জন্য"
+
+msgid "General"
+msgstr "সাধারণ"
+
+msgid "HTTP error %d"
+msgstr "HTTP ত্রুটি %d"
+
+msgid "Handed to courier."
+msgstr "কুরিয়ারে দেওয়া হয়েছে।"
+
+msgid "Hold new COD orders"
+msgstr "নতুন COD অর্ডার হোল্ডে রাখুন"
+
+msgid "I received it"
+msgstr "টাকা পেয়েছি"
+
+msgid "In stock"
+msgstr "স্টকে আছে"
+
+msgid "In transit"
+msgstr "পথে আছে"
+
+msgid "Income"
+msgstr "আয়"
+
+msgid "Items on label"
+msgstr "লেবেলে প্রোডাক্ট"
+
+msgid "Judge after this many parcels"
+msgstr "এতগুলো পার্সেলের পর যাচাই"
+
+msgid "Keep advance on returns"
+msgstr "রিটার্নে অগ্রিম রাখুন"
+
+msgid "Label size"
+msgstr "লেবেলের সাইজ"
+
+msgid "Last 6 months"
+msgstr "গত ৬ মাস"
+
+msgid "Last full courier check: %s ago."
+msgstr "শেষ পূর্ণ কুরিয়ার চেক: %s আগে।"
+
+msgid "Lavkhata"
+msgstr "লাভখাতা"
+
+msgid "Lavkhata needs WooCommerce. Please install and activate WooCommerce first."
+msgstr "লাভখাতার জন্য WooCommerce লাগবে। আগে WooCommerce ইনস্টল ও চালু করুন।"
+
+msgid "Lavkhata overview"
+msgstr "লাভখাতা সারসংক্ষেপ"
+
+msgid "Lavkhata settings"
+msgstr "লাভখাতা সেটিংস"
+
+msgid "Leave empty for the default. You can use {name} {order} {total} {cod} {items} {shop} {link}"
+msgstr "খালি রাখলে ডিফল্ট মেসেজ যাবে। ব্যবহার করতে পারেন {name} {order} {total} {cod} {items} {shop} {link}"
+
+msgid "Leave empty to use the default message (shown in the site language)."
+msgstr "খালি রাখলে ডিফল্ট মেসেজ দেখাবে (সাইটের ভাষায়)।"
+
+msgid "Leave empty to use your first store. \"Test connection\" lists your stores."
+msgstr "খালি রাখলে প্রথম স্টোর ব্যবহার হবে। \"কানেকশন টেস্ট\" করলে স্টোরের তালিকা দেখাবে।"
+
+msgid "Line"
+msgstr "খাত"
+
+msgid "Link not valid"
+msgstr "লিংক সঠিক নয়"
+
+msgid "List the products and quantities on each label."
+msgstr "প্রতিটি লেবেলে প্রোডাক্ট ও পরিমাণ দেখাবে।"
+
+msgid "Look at sales from the last (days)"
+msgstr "গত কত দিনের বিক্রি দেখবে (দিন)"
+
+msgid "Many earlier parcels to this number were not received, so please pay a small advance to confirm this order. You pay the rest on delivery."
+msgstr "এই নম্বরে আগের অনেক পার্সেল রিসিভ হয়নি, তাই অর্ডার কনফার্ম করতে অল্প অগ্রিম দিন। বাকি টাকা ডেলিভারির সময় দেবেন।"
+
+msgid "Marketing and overheads"
+msgstr "মার্কেটিং ও অন্যান্য খরচ"
+
+msgid "Merchant (customer uses Payment)"
+msgstr "মার্চেন্ট (কাস্টমার Payment করবেন)"
+
+msgid "Merchant email"
+msgstr "মার্চেন্ট ইমেইল"
+
+msgid "Merchant password"
+msgstr "মার্চেন্ট পাসওয়ার্ড"
+
+msgid "Message"
+msgstr "মেসেজ"
+
+msgid "Message shown at checkout"
+msgstr "চেকআউটে দেখানো মেসেজ"
+
+msgid "Meta Conversions API error: %s"
+msgstr "Meta Conversions API ত্রুটি: %s"
+
+msgid "Meta ads"
+msgstr "Meta বিজ্ঞাপন"
+
+msgid "Minimum delivery rate (%)"
+msgstr "সর্বনিম্ন ডেলিভারি রেট (%)"
+
+msgid "Mode: Auto-update (courier status changes your orders)."
+msgstr "মোড: অটো-আপডেট (কুরিয়ার স্ট্যাটাস অনুযায়ী অর্ডার বদলায়)।"
+
+msgid "Mode: Report only (courier status is shown but orders are not changed)."
+msgstr "মোড: শুধু রিপোর্ট (কুরিয়ার স্ট্যাটাস দেখায়, অর্ডার বদলায় না)।"
+
+msgid "Month"
+msgstr "মাস"
+
+msgid "Nagad number"
+msgstr "নগদ নম্বর"
+
+msgid "Net profit"
+msgstr "নিট লাভ"
+
+msgid "New customer"
+msgstr "নতুন কাস্টমার"
+
+msgid "New customers (no record)"
+msgstr "নতুন কাস্টমার (রেকর্ড নেই)"
+
+msgid "No orders yet this month."
+msgstr "এই মাসে এখনো অর্ডার নেই।"
+
+msgid "No products track stock yet. Turn on \"Manage stock\" on your products to use the planner."
+msgstr "কোনো প্রোডাক্টে স্টক ট্র্যাক হচ্ছে না। প্ল্যানার ব্যবহার করতে প্রোডাক্টে \"Manage stock\" চালু করুন।"
+
+msgid "No recent sales"
+msgstr "সম্প্রতি বিক্রি নেই"
+
+msgid "No status from Pathao."
+msgstr "Pathao থেকে স্ট্যাটাস আসেনি।"
+
+msgid "No status from Steadfast."
+msgstr "Steadfast থেকে স্ট্যাটাস আসেনি।"
+
+msgid "No valid phone"
+msgstr "সঠিক ফোন নম্বর নেই"
+
+msgid "Note"
+msgstr "নোট"
+
+msgid "Nothing added for this month yet."
+msgstr "এই মাসে এখনো কিছু যোগ হয়নি।"
+
+msgid "Nothing needs restocking this week."
+msgstr "এই সপ্তাহে কিছু রিস্টক করতে হবে না।"
+
+msgid "Number type"
+msgstr "নম্বরের ধরন"
+
+msgid "Number you paid from"
+msgstr "যে নম্বর থেকে টাকা পাঠিয়েছেন"
+
+msgid "OK"
+msgstr "ঠিক আছে"
+
+msgid "Offer advance + COD to risky customers"
+msgstr "ঝুঁকিপূর্ণ কাস্টমারকে অগ্রিম + COD দেখান"
+
+msgid "On delivery:"
+msgstr "ডেলিভারিতে:"
+
+msgid "On hold"
+msgstr "হোল্ডে"
+
+msgid "Online payment fee (%)"
+msgstr "অনলাইন পেমেন্ট চার্জ (%)"
+
+msgid "Only while testing in Events Manager. Leave empty for live."
+msgstr "শুধু Events Manager-এ টেস্টের সময়। লাইভে খালি রাখুন।"
+
+msgid "Order"
+msgstr "অর্ডার"
+
+msgid "Order #%1$s booked with %2$s (%3$s)."
+msgstr "অর্ডার #%1$s %2$s-এ বুক হয়েছে (%3$s)।"
+
+msgid "Order #%1$s is already booked (consignment %2$s)."
+msgstr "অর্ডার #%1$s আগেই বুক করা (কনসাইনমেন্ট %2$s)।"
+
+msgid "Order #%1$s: %2$s"
+msgstr "অর্ডার #%1$s: %2$s"
+
+msgid "Order #%s"
+msgstr "অর্ডার #%s"
+
+msgid "Order %d"
+msgstr "%dটি কিনুন"
+
+msgid "Order confirmed"
+msgstr "অর্ডার কনফার্ম হয়েছে"
+
+msgid "Order costs"
+msgstr "অর্ডারের খরচ"
+
+msgid "Order not found."
+msgstr "অর্ডার পাওয়া যায়নি।"
+
+msgid "Order qty"
+msgstr "কেনার পরিমাণ"
+
+msgid "Orders placed"
+msgstr "মোট অর্ডার"
+
+msgid "Other"
+msgstr "অন্যান্য"
+
+msgid "Other expenses"
+msgstr "অন্যান্য খরচ"
+
+msgid "Other income"
+msgstr "অন্যান্য আয়"
+
+msgid "Out of stock"
+msgstr "স্টক শেষ"
+
+msgid "Overview"
+msgstr "সারসংক্ষেপ"
+
+msgid "PAID"
+msgstr "পরিশোধিত"
+
+msgid "Packaging"
+msgstr "প্যাকেজিং"
+
+msgid "Packaging per order (৳)"
+msgstr "প্রতি অর্ডারে প্যাকেজিং (৳)"
+
+msgid "Parcels this phone number received or returned across Pathao."
+msgstr "Pathao-তে এই নম্বর কত পার্সেল রিসিভ বা রিটার্ন করেছে।"
+
+msgid "Parcels this phone number received or returned across Steadfast."
+msgstr "Steadfast-এ এই নম্বর কত পার্সেল রিসিভ বা রিটার্ন করেছে।"
+
+msgid "Partly delivered"
+msgstr "আংশিক ডেলিভারি"
+
+msgid "Paste this as the Auth token (Bearer) in Steadfast → Webhook, with the URL above."
+msgstr "উপরের URL-সহ এটি Steadfast → Webhook-এ Auth token (Bearer) হিসেবে দিন।"
+
+msgid "Paste this as the webhook secret in Pathao merchant panel → Developers API → Webhook."
+msgstr "এটি Pathao মার্চেন্ট প্যানেল → Developers API → Webhook-এ webhook secret হিসেবে দিন।"
+
+msgid "Pathao connected. Stores: %s"
+msgstr "Pathao যুক্ত হয়েছে। স্টোর: %s"
+
+msgid "Pathao did not return a consignment ID."
+msgstr "Pathao কনসাইনমেন্ট আইডি দেয়নি।"
+
+msgid "Pathao: could not log in. Check client ID, secret, email and password."
+msgstr "Pathao: লগইন হয়নি। Client ID, secret, ইমেইল ও পাসওয়ার্ড দেখুন।"
+
+msgid "Pay advance now, rest on delivery"
+msgstr "এখন অগ্রিম দিন, বাকিটা ডেলিভারিতে"
+
+msgid "Pay now:"
+msgstr "এখন দিন:"
+
+msgid "Payment"
+msgstr "Payment"
+
+msgid "Payment gateway fees"
+msgstr "পেমেন্ট গেটওয়ে চার্জ"
+
+msgid "Per day"
+msgstr "প্রতিদিন"
+
+msgid "Percent of order"
+msgstr "অর্ডারের শতাংশ"
+
+msgid "Personal (customer uses Send Money)"
+msgstr "পার্সোনাল (কাস্টমার Send Money করবেন)"
+
+msgid "Pixel (dataset) ID"
+msgstr "পিক্সেল (ডেটাসেট) আইডি"
+
+msgid "Platform"
+msgstr "প্ল্যাটফর্ম"
+
+msgid "Please enter a valid transaction ID."
+msgstr "সঠিক ট্রানজেকশন আইডি দিন।"
+
+msgid "Please enter the mobile number you sent the advance from."
+msgstr "যে নম্বর থেকে অগ্রিম পাঠিয়েছেন সেটি দিন।"
+
+msgid "Plugin language"
+msgstr "প্লাগইনের ভাষা"
+
+msgid "Print"
+msgstr "প্রিন্ট"
+
+msgid "Print label"
+msgstr "লেবেল প্রিন্ট"
+
+msgid "Print shipping labels"
+msgstr "শিপিং লেবেল প্রিন্ট"
+
+msgid "Product"
+msgstr "প্রোডাক্ট"
+
+msgid "Product cost"
+msgstr "প্রোডাক্টের দাম"
+
+msgid "Profit"
+msgstr "লাভ"
+
+msgid "Profit & Loss"
+msgstr "লাভ-ক্ষতি"
+
+msgid "Profit before ads"
+msgstr "বিজ্ঞাপনের আগে লাভ"
+
+msgid "Purchase sent to Meta (Conversions API)."
+msgstr "Meta-তে Purchase পাঠানো হয়েছে (Conversions API)।"
+
+msgid "Put new cash-on-delivery orders \"On hold\" until the customer taps the WhatsApp confirm link."
+msgstr "কাস্টমার হোয়াটসঅ্যাপ কনফার্ম লিংকে ট্যাপ না করা পর্যন্ত নতুন COD অর্ডার \"On hold\" থাকবে।"
+
+msgid "Real profit"
+msgstr "আসল লাভ"
+
+msgid "Recommended: when delivered. Meta then learns from people who really pay, not fake COD orders."
+msgstr "পরামর্শ: ডেলিভারি হলে। তাহলে Meta ভুয়া COD অর্ডার নয়, যারা সত্যিই টাকা দেয় তাদের থেকে শেখে।"
+
+msgid "Reorder by"
+msgstr "কবের মধ্যে কিনবেন"
+
+msgid "Reorder now"
+msgstr "এখনই কিনুন"
+
+msgid "Reorder this week"
+msgstr "এই সপ্তাহে কিনুন"
+
+msgid "Report only"
+msgstr "শুধু রিপোর্ট"
+
+msgid "Restock"
+msgstr "রিস্টক"
+
+msgid "Restock & labels"
+msgstr "রিস্টক ও লেবেল"
+
+msgid "Restock planner"
+msgstr "রিস্টক প্ল্যানার"
+
+msgid "Restock soon"
+msgstr "শিগগির রিস্টক"
+
+msgid "Return charge (% of delivery charge)"
+msgstr "রিটার্ন চার্জ (ডেলিভারি চার্জের %)"
+
+msgid "Return charges"
+msgstr "রিটার্ন চার্জ"
+
+msgid "Returned"
+msgstr "রিটার্ন"
+
+msgid "Returned <span class=\"count\">(%s)</span>"
+msgid_plural "Returned <span class=\"count\">(%s)</span>"
+msgstr[0] "রিটার্ন <span class=\"count\">(%s)</span>"
+msgstr[1] "রিটার্ন <span class=\"count\">(%s)</span>"
+
+msgid "Rocket number"
+msgstr "রকেট নম্বর"
+
+msgid "SKU"
+msgstr "SKU"
+
+msgid "Sales"
+msgstr "বিক্রি"
+
+msgid "Sales (delivered orders)"
+msgstr "বিক্রি (ডেলিভারি হওয়া অর্ডার)"
+
+msgid "Sales count only when the courier delivers. Returned orders count their delivery, return and packaging costs. Ad spend includes VAT."
+msgstr "কুরিয়ার ডেলিভারি দিলে তবেই বিক্রি গোনা হয়। রিটার্ন অর্ডারে ডেলিভারি, রিটার্ন ও প্যাকেজিং খরচ ধরা হয়। বিজ্ঞাপন খরচ ভ্যাটসহ।"
+
+msgid "Same as parent"
+msgstr "মূল প্রোডাক্টের মতো"
+
+msgid "Same as site"
+msgstr "সাইটের ভাষা"
+
+msgid "Sandbox"
+msgstr "Sandbox"
+
+msgid "Saved — leave empty to keep"
+msgstr "সেভ করা আছে — না বদলাতে খালি রাখুন"
+
+msgid "Saved."
+msgstr "সেভ হয়েছে।"
+
+msgid "Secret key"
+msgstr "Secret key"
+
+msgid "See all stock"
+msgstr "সব স্টক দেখুন"
+
+msgid "Send Money"
+msgstr "Send Money"
+
+msgid "Send Purchase when"
+msgstr "Purchase পাঠাবে যখন"
+
+msgid "Send the advance by Send Money to one of the numbers below, then enter the number you paid from and the transaction ID."
+msgstr "নিচের যেকোনো নম্বরে Send Money করে অগ্রিম পাঠান, তারপর যে নম্বর থেকে পাঠিয়েছেন সেটি ও ট্রানজেকশন আইডি দিন।"
+
+msgid "Send to %s"
+msgstr "%s-এ পাঠান"
+
+msgid "Set your Pathao store ID in Lavkhata settings."
+msgstr "লাভখাতা সেটিংসে Pathao স্টোর আইডি দিন।"
+
+msgid "Settings"
+msgstr "সেটিংস"
+
+msgid "Settings saved."
+msgstr "সেটিংস সেভ হয়েছে।"
+
+msgid "Shipping labels"
+msgstr "শিপিং লেবেল"
+
+msgid "Shop phone on label"
+msgstr "লেবেলে দোকানের ফোন"
+
+msgid "Show"
+msgstr "দেখুন"
+
+msgid "Show a WhatsApp button on new orders that opens a ready message with a one-tap confirm link."
+msgstr "নতুন অর্ডারে হোয়াটসঅ্যাপ বাটন দেখাবে, যেটি এক-ট্যাপ কনফার্ম লিংকসহ তৈরি মেসেজ খোলে।"
+
+msgid "Shown only to customers with a poor delivery record. They send a small advance by bKash, Nagad or Rocket and pay the rest on delivery. You check the transaction ID and confirm the order."
+msgstr "শুধু খারাপ ডেলিভারি রেকর্ডের কাস্টমাররা দেখবেন। তারা বিকাশ, নগদ বা রকেটে অল্প অগ্রিম পাঠাবেন, বাকিটা ডেলিভারিতে দেবেন। আপনি ট্রানজেকশন আইডি মিলিয়ে অর্ডার কনফার্ম করবেন।"
+
+msgid "Sold"
+msgstr "বিক্রি"
+
+msgid "Some hosts remove the Authorization header. If Steadfast webhooks fail, ask your host to pass it through, or rely on the nightly status check."
+msgstr "কিছু হোস্ট Authorization হেডার সরিয়ে দেয়। Steadfast webhook কাজ না করলে হোস্টকে বলুন, অথবা রাতের স্ট্যাটাস চেকের ওপর ভরসা রাখুন।"
+
+msgid "Some products have no cost price, so profit looks higher than it is."
+msgstr "কিছু প্রোডাক্টে কেনা দাম নেই, তাই লাভ আসলের চেয়ে বেশি দেখাচ্ছে।"
+
+msgid "Start with \"Report only\": courier status is shown on each order but your order statuses are not changed. Switch to Auto-update when you are happy."
+msgstr "\"শুধু রিপোর্ট\" দিয়ে শুরু করুন: প্রতিটি অর্ডারে কুরিয়ার স্ট্যাটাস দেখাবে কিন্তু অর্ডার স্ট্যাটাস বদলাবে না। সন্তুষ্ট হলে অটো-আপডেট চালু করুন।"
+
+msgid "Status"
+msgstr "স্ট্যাটাস"
+
+msgid "Steadfast balance"
+msgstr "Steadfast ব্যালেন্স"
+
+msgid "Steadfast connected. Current balance: %s"
+msgstr "Steadfast যুক্ত হয়েছে। বর্তমান ব্যালেন্স: %s"
+
+msgid "Steadfast did not return a consignment ID."
+msgstr "Steadfast কনসাইনমেন্ট আইডি দেয়নি।"
+
+msgid "Steadfast: could not connect. Check the API key and secret key."
+msgstr "Steadfast: যুক্ত হয়নি। API key ও secret key দেখুন।"
+
+msgid "Store ID"
+msgstr "স্টোর আইডি"
+
+msgid "Supplier delivery time (days)"
+msgstr "সাপ্লায়ারের ডেলিভারি সময় (দিন)"
+
+msgid "Taka for \"Fixed\", percent for \"Percent\"."
+msgstr "\"নির্দিষ্ট\" হলে টাকা, \"শতাংশ\" হলে শতাংশ।"
+
+msgid "Test %s connection"
+msgstr "%s কানেকশন টেস্ট"
+
+msgid "Test event code"
+msgstr "টেস্ট ইভেন্ট কোড"
+
+msgid "Thank you! Order #%1$s is confirmed. We will send it soon. Please keep %2$s ready for the delivery person."
+msgstr "ধন্যবাদ! অর্ডার #%1$s কনফার্ম হয়েছে। শিগগিরই পাঠানো হবে। ডেলিভারির সময় %2$s রেডি রাখুন।"
+
+msgid "The courier delivers the order"
+msgstr "কুরিয়ার অর্ডার ডেলিভারি দিলে"
+
+msgid "The customer phone number is not a valid Bangladeshi mobile number."
+msgstr "কাস্টমারের ফোন নম্বরটি সঠিক বাংলাদেশি মোবাইল নম্বর নয়।"
+
+msgid "The full courier check runs every night."
+msgstr "প্রতি রাতে পূর্ণ কুরিয়ার চেক হয়।"
+
+msgid "The order is placed"
+msgstr "অর্ডার করা হলে"
+
+msgid "This confirmation link is not valid or has expired. Please contact the shop."
+msgstr "এই কনফার্মেশন লিংকটি সঠিক নয় বা মেয়াদ শেষ। দোকানের সাথে যোগাযোগ করুন।"
+
+msgid "This order is not booked with a courier."
+msgstr "এই অর্ডার কোনো কুরিয়ারে বুক করা হয়নি।"
+
+msgid "Title"
+msgstr "শিরোনাম"
+
+msgid "Today"
+msgstr "আজ"
+
+msgid "Transaction ID (TrxID)"
+msgstr "ট্রানজেকশন আইডি (TrxID)"
+
+msgid "Turn off cash on delivery (pay online only)"
+msgstr "ক্যাশ অন ডেলিভারি বন্ধ (শুধু অনলাইন পেমেন্ট)"
+
+msgid "Turn on COD protection"
+msgstr "COD সুরক্ষা চালু করুন"
+
+msgid "Type"
+msgstr "ধরন"
+
+msgid "Unknown courier."
+msgstr "অজানা কুরিয়ার।"
+
+msgid "Use Pathao record"
+msgstr "Pathao রেকর্ড ব্যবহার"
+
+msgid "Use Pathao test server."
+msgstr "Pathao টেস্ট সার্ভার ব্যবহার করুন।"
+
+msgid "Use Steadfast record"
+msgstr "Steadfast রেকর্ড ব্যবহার"
+
+msgid "Use your own shop history"
+msgstr "নিজের দোকানের ইতিহাস ব্যবহার"
+
+msgid "Used when the courier does not send the real charge."
+msgstr "কুরিয়ার আসল চার্জ না পাঠালে এটি ধরা হয়।"
+
+msgid "VAT %"
+msgstr "ভ্যাট %"
+
+msgid "VAT on ads (%)"
+msgstr "বিজ্ঞাপনে ভ্যাট (%)"
+
+msgid "Verified"
+msgstr "যাচাই হয়েছে"
+
+msgid "Waiting for the customer to confirm on WhatsApp."
+msgstr "কাস্টমারের হোয়াটসঅ্যাপ কনফার্মের অপেক্ষায়।"
+
+msgid "Waiting to verify advance of %1$s from %2$s (TrxID %3$s)."
+msgstr "%2$s থেকে %1$s অগ্রিম যাচাইয়ের অপেক্ষায় (TrxID %3$s)।"
+
+msgid "We received your advance details (%1$s). We will confirm your order after checking the payment. Pay %2$s on delivery."
+msgstr "আপনার অগ্রিমের তথ্য পেয়েছি (%1$s)। পেমেন্ট মিলিয়ে অর্ডার কনফার্ম করা হবে। ডেলিভারির সময় %2$s দেবেন।"
+
+msgid "Webhook URL"
+msgstr "Webhook URL"
+
+msgid "Webhook auth token"
+msgstr "Webhook auth token"
+
+msgid "Webhook secret"
+msgstr "Webhook secret"
+
+msgid "What one unit costs you to buy or make. Lavkhata uses it to show real profit."
+msgstr "এক পিস কিনতে বা বানাতে আপনার যত খরচ। আসল লাভ দেখাতে লাভখাতা এটি ব্যবহার করে।"
+
+msgid "WhatsApp"
+msgstr "হোয়াটসঅ্যাপ"
+
+msgid "WhatsApp confirm"
+msgstr "হোয়াটসঅ্যাপ কনফার্ম"
+
+msgid "With courier"
+msgstr "কুরিয়ারে আছে"
+
+msgid "With courier <span class=\"count\">(%s)</span>"
+msgid_plural "With courier <span class=\"count\">(%s)</span>"
+msgstr[0] "কুরিয়ারে আছে <span class=\"count\">(%s)</span>"
+msgstr[1] "কুরিয়ারে আছে <span class=\"count\">(%s)</span>"
+
+msgid "With courier now"
+msgstr "এখন কুরিয়ারে"
+
+msgid "Works even without courier keys."
+msgstr "কুরিয়ার কী ছাড়াও কাজ করে।"
+
+msgid "You do not have permission to do this."
+msgstr "এটি করার অনুমতি আপনার নেই।"
+
+msgid "Your ads are profitable"
+msgstr "আপনার বিজ্ঞাপনে লাভ হচ্ছে"
+
+msgid "Your ads cost more than each order earns"
+msgstr "প্রতি অর্ডারে যা আয় হয়, বিজ্ঞাপনে তার চেয়ে বেশি খরচ হচ্ছে"
+
+msgid "Your card's rate for paying ads."
+msgstr "বিজ্ঞাপনের বিল দিতে আপনার কার্ডের রেট।"
+
+msgid "Your cost per purchase (with VAT)"
+msgstr "আপনার প্রতি পারচেজ খরচ (ভ্যাটসহ)"
+
+msgid "Your shop"
+msgstr "আপনার দোকান"
+
+msgid "bKash / gateway fee on money paid before delivery."
+msgstr "ডেলিভারির আগে দেওয়া টাকায় বিকাশ / গেটওয়ে চার্জ।"
+
+msgid "bKash number"
+msgstr "বিকাশ নম্বর"
+
+msgid "none found"
+msgstr "পাওয়া যায়নি"
+
+msgid "parcels booked this month and not finished"
+msgstr "এই মাসে বুক হওয়া, এখনো শেষ হয়নি এমন পার্সেল"
