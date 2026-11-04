@@ -310,7 +310,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   <div class="wrap" style="max-width:820px">
     <div class="section-head"><h2>Questions</h2></div>
     <details><summary>Will the courier status change my orders by itself?</summary><p>Only when you allow it. New installs start in "Report only" mode: you see the courier status and a note on each order, but nothing changes. Switch to "Auto-update" when you're comfortable.</p></details>
-    <details><summary>How does it know if a customer is risky?</summary><p>It looks up the phone number's delivery record with Steadfast and Pathao (using your own API keys) and in your own shop's history. If the number has received fewer parcels than your minimum delivery rate, the customer is asked for an advance.</p></details>
+    <details><summary>How does it know if a customer is risky?</summary><p>It looks up the phone number's delivery record with Steadfast and Pathao (using your own API keys) and in your own shop's history. If the delivery rate is below the minimum you set, the customer is asked for an advance.</p></details>
     <details><summary>Do I need a payment gateway for the advance?</summary><p>No. Customers send money to your bKash, Nagad or Rocket number and enter the transaction ID. You tap "I received it" on the order. If you already use an online gateway, risky customers can pay in full there.</p></details>
     <details><summary>Does it work on Shopify?</summary><p>Not yet. Lavkhata is a WordPress plugin for WooCommerce.</p></details>
     <details><summary>Does it file my VAT return?</summary><p>No. It gives you a monthly P&amp;L with every fee and a CSV your accountant can use.</p></details>
