@@ -128,7 +128,7 @@ foreach ( $plan as $row ) {
 }
 
 // Delivery record for the new orders (from this shop's own history).
-foreach ( wc_get_orders( array( 'status' => 'processing', 'limit' => 10 ) ) as $o ) {
+foreach ( wc_get_orders( array( 'limit' => 50 ) ) as $o ) {
 	$a = Lavkhata\Cod_Guard::assess( $o->get_billing_phone(), $o->get_id(), true );
 	if ( $a ) {
 		Lavkhata\Cod_Guard::store_record( $o, $a );
@@ -140,3 +140,8 @@ Lavkhata\Ledger::add( 0, current_time( 'Y-m-d' ), 'ad_spend', Lavkhata\Ledger::a
 Lavkhata\Ledger::add( 0, current_time( 'Y-m-d' ), 'expense', 800, 'Packaging materials' );
 
 update_option( 'lvk_backfill_done', time(), false );
+
+// Open Lavkhata, not the WooCommerce welcome screen, and show the shop to visitors.
+delete_transient( '_wc_activation_redirect' );
+update_option( 'woocommerce_coming_soon', 'no' );
+update_option( 'woocommerce_store_pages_only', 'no' );

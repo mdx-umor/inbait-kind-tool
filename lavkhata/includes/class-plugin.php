@@ -23,13 +23,8 @@ final class Plugin {
 
 	private function __construct() {
 		add_filter( 'plugin_locale', array( $this, 'locale' ), 10, 2 );
-		add_action(
-			'init',
-			static function () {
-				load_plugin_textdomain( 'lavkhata', false, dirname( plugin_basename( LVK_FILE ) ) . '/languages' );
-			},
-			0
-		);
+		add_action( 'init', array( $this, 'load_translations' ), 0 );
+		add_filter( 'override_load_textdomain', array( $this, 'force_english' ), 10, 2 );
 
 		add_action( 'init', array( 'Lavkhata\\Install', 'register_statuses' ) );
 		add_filter( 'wc_order_statuses', array( 'Lavkhata\\Install', 'add_statuses' ) );
@@ -60,6 +55,23 @@ final class Plugin {
 			Admin\Settings_Page::init();
 		}
 		add_filter( 'plugin_action_links_' . plugin_basename( LVK_FILE ), array( $this, 'action_links' ) );
+	}
+
+	/**
+	 * WordPress 6.7+ loads plugin translations just in time in the site language,
+	 * so a language picked in Lavkhata settings is loaded here explicitly.
+	 */
+	public function load_translations() {
+		load_plugin_textdomain( 'lavkhata', false, dirname( plugin_basename( LVK_FILE ) ) . '/languages' );
+		if ( 'bn_BD' === Settings::get( 'language' ) ) {
+			unload_textdomain( 'lavkhata' );
+			load_textdomain( 'lavkhata', LVK_DIR . 'languages/lavkhata-bn_BD.mo', 'bn_BD' );
+		}
+	}
+
+	/** "English" in Lavkhata settings: skip translations even on a Bangla site. */
+	public function force_english( $override, $domain ) {
+		return 'lavkhata' === $domain && 'en_US' === Settings::get( 'language' ) ? true : $override;
 	}
 
 	public function locale( $locale, $domain ) {

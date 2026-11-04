@@ -1,5 +1,5 @@
 /* Lavkhata admin */
-.lvk-wrap { --lvk-good: #1a7f45; --lvk-good-bg: #e6f4ec; --lvk-bad: #b3261e; --lvk-bad-bg: #fbe9e7; --lvk-warn: #8a5a00; --lvk-warn-bg: #fff4d6; --lvk-info: #1d4f91; --lvk-info-bg: #e8f0fb; --lvk-line: #dcdcde; }
+:root { --lvk-good: #1a7f45; --lvk-good-bg: #e6f4ec; --lvk-bad: #b3261e; --lvk-bad-bg: #fbe9e7; --lvk-warn: #8a5a00; --lvk-warn-bg: #fff4d6; --lvk-info: #1d4f91; --lvk-info-bg: #e8f0fb; --lvk-line: #dcdcde; }
 .lvk-wrap h1 .lvk-sub { font-size: 14px; font-weight: 400; color: #646970; margin-left: 8px; }
 .lvk-muted { color: #646970; }
 .lvk-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin: 16px 0; }
