@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lavkhata · Real profit for COD shops</title>
+<meta name="description" content="WooCommerce plugin for Bangladeshi shops: real profit after delivery, Steadfast and Pathao sync, COD fraud protection, Meta Conversions API on delivered orders, WhatsApp confirm and restock planning.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f5f0; --surface:#ffffff; --ink:#15201a; --muted:#56615a; --line:#e3e1d8;
+  --brand:#0f6b3c; --brand-ink:#ffffff; --brand-soft:#e3f1e8; --accent:#e8a317;
+  --bad:#b3261e; --bad-soft:#fbe9e7; --warn-soft:#fff3d4; --good:#1a7f45;
+  --shadow:0 1px 2px rgba(20,30,25,.05),0 8px 28px rgba(20,30,25,.07);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f1512; --surface:#18201c; --ink:#e8eee9; --muted:#9aa8a0; --line:#2a352f;
+    --brand:#3fbf7a; --brand-ink:#08130d; --brand-soft:#173325; --accent:#f0b43a;
+    --bad:#ff8a80; --bad-soft:#3a1f1c; --warn-soft:#3a3016; --good:#5fd394;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 28px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f1512; --surface:#18201c; --ink:#e8eee9; --muted:#9aa8a0; --line:#2a352f;
+  --brand:#3fbf7a; --brand-ink:#08130d; --brand-soft:#173325; --accent:#f0b43a;
+  --bad:#ff8a80; --bad-soft:#3a1f1c; --warn-soft:#3a3016; --good:#5fd394;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 28px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,"Hind Siliguri",system-ui,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+.bn{font-family:"Hind Siliguri",Inter,sans-serif}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 16px}
+header.top{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:60px;gap:12px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;text-decoration:none;font-size:18px}
+.logo-mark{width:30px;height:30px;border-radius:8px;background:var(--brand);color:var(--brand-ink);display:grid;place-items:center;font-family:"Hind Siliguri";font-weight:700;font-size:17px}
+.nav-links{display:flex;gap:22px;font-size:14px;color:var(--muted)}
+.nav-links a{text-decoration:none}
+.nav-links a:hover{color:var(--ink)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:10px;font-weight:600;text-decoration:none;border:1px solid transparent;font-size:15px;cursor:pointer}
+.btn-primary{background:var(--brand);color:var(--brand-ink)}
+.btn-primary:hover{filter:brightness(1.08)}
+.btn-ghost{border-color:var(--line);background:var(--surface)}
+.btn-sm{padding:8px 14px;font-size:14px}
+@media (max-width:760px){.nav-links{display:none}}
+
+.hero{padding:64px 0 40px}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+@media (max-width:900px){.hero-grid{grid-template-columns:1fr;gap:32px}}
+.eyebrow{display:inline-block;font-size:13px;font-weight:600;color:var(--brand);background:var(--brand-soft);padding:5px 12px;border-radius:999px;margin-bottom:18px}
+h1{font-size:clamp(34px,5.2vw,56px);line-height:1.05;letter-spacing:-.025em;margin:0 0 18px;font-weight:800}
+h1 em{font-style:normal;color:var(--brand)}
+.lead{font-size:18px;color:var(--muted);max-width:540px;margin:0 0 26px}
+.lead .bn{display:block;margin-top:6px;font-size:17px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.trust{margin-top:22px;font-size:13px;color:var(--muted);display:flex;gap:18px;flex-wrap:wrap}
+.trust span::before{content:"✓ ";color:var(--brand);font-weight:700}
+
+/* Product mock */
+.mock{background:var(--surface);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);overflow:hidden}
+.mock-bar{display:flex;gap:6px;padding:10px 14px;border-bottom:1px solid var(--line)}
+.mock-bar i{width:9px;height:9px;border-radius:50%;background:var(--line)}
+.mock-body{padding:18px}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px}
+.kpi{border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.kpi small{display:block;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.kpi b{font-size:20px;font-variant-numeric:tabular-nums}
+.kpi b.g{color:var(--good)}
+.rows{border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:13px}
+.row{display:grid;grid-template-columns:52px 1fr auto;gap:10px;align-items:center;padding:9px 12px;border-top:1px solid var(--line)}
+.row:first-child{border-top:0}
+.row .id{color:var(--muted);font-variant-numeric:tabular-nums}
+.chip{display:inline-block;font-size:11.5px;padding:2px 9px;border-radius:999px;white-space:nowrap;font-weight:600}
+.chip.good{background:var(--brand-soft);color:var(--good)}
+.chip.bad{background:var(--bad-soft);color:var(--bad)}
+.chip.warn{background:var(--warn-soft);color:#8a5a00}
+:root[data-theme="dark"] .chip.warn{color:var(--accent)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .chip.warn{color:var(--accent)}}
+.chip.info{background:var(--line);color:var(--ink)}
+.mock-foot{margin-top:12px;display:flex;justify-content:space-between;gap:10px;align-items:center;font-size:13px;color:var(--muted);flex-wrap:wrap}
+
+section{padding:56px 0}
+.section-head{max-width:680px;margin-bottom:32px}
+h2{font-size:clamp(26px,3.4vw,36px);letter-spacing:-.02em;line-height:1.15;margin:0 0 10px}
+.section-head p{color:var(--muted);margin:0;font-size:17px}
+
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media (max-width:900px){.features{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:600px){.features{grid-template-columns:1fr}}
+.feature{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px}
+.feature .ic{width:38px;height:38px;border-radius:10px;background:var(--brand-soft);color:var(--brand);display:grid;place-items:center;margin-bottom:14px}
+.feature h3{margin:0 0 4px;font-size:17px}
+.feature .bn{color:var(--muted);font-size:14px;margin-bottom:10px}
+.feature ul{margin:0;padding-left:18px;color:var(--muted);font-size:14.5px}
+.feature li{margin:4px 0}
+
+.pnl{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}
+@media (max-width:860px){.pnl{grid-template-columns:1fr}}
+.ledger{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:6px 0;box-shadow:var(--shadow);font-size:14.5px}
+.ledger .l{display:flex;justify-content:space-between;padding:9px 20px;font-variant-numeric:tabular-nums}
+.ledger .l.h{font-weight:700;font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);padding-top:14px}
+.ledger .l.sub{border-top:1px solid var(--line);font-weight:600}
+.ledger .l.total{border-top:2px solid var(--ink);font-weight:800;font-size:17px;color:var(--good)}
+.ledger .neg{color:var(--muted)}
+.points{display:grid;gap:14px}
+.point{display:flex;gap:14px}
+.point b{flex:none;width:28px;height:28px;border-radius:50%;background:var(--brand);color:var(--brand-ink);display:grid;place-items:center;font-size:14px}
+.point p{margin:2px 0 0;color:var(--muted)}
+
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;counter-reset:s}
+@media (max-width:860px){.steps{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:520px){.steps{grid-template-columns:1fr}}
+.step{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px}
+.step::before{counter-increment:s;content:counter(s);display:inline-grid;place-items:center;width:28px;height:28px;border-radius:8px;background:var(--brand-soft);color:var(--brand);font-weight:700;margin-bottom:10px}
+.step h3{margin:0 0 6px;font-size:16px}
+.step p{margin:0;color:var(--muted);font-size:14.5px}
+
+.compare{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;font-size:14.5px}
+.compare th,.compare td{padding:12px 16px;border-top:1px solid var(--line);text-align:left}
+.compare thead th{border-top:0;background:var(--brand-soft);font-size:13px}
+.compare td:not(:first-child),.compare th:not(:first-child){text-align:center}
+.tbl-scroll{overflow-x:auto;border-radius:14px}
+.yes{color:var(--good);font-weight:700}
+
+details{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:600;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";float:right;color:var(--muted);font-weight:400}
+details[open] summary::after{content:"–"}
+details p{color:var(--muted);margin:10px 0 0}
+
+.download{background:var(--brand);color:var(--brand-ink);border-radius:20px;padding:44px 32px;display:grid;grid-template-columns:1.3fr 1fr;gap:28px;align-items:center}
+@media (max-width:820px){.download{grid-template-columns:1fr;padding:32px 22px}}
+.download h2{color:inherit}
+.download p{opacity:.85;margin:0}
+.download .btn{background:var(--brand-ink);color:var(--brand)}
+.req{font-size:13.5px;opacity:.85;margin-top:12px !important}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.9em;background:var(--brand-soft);padding:1px 6px;border-radius:5px}
+.download code{background:rgba(255,255,255,.15)}
+
+footer{padding:32px 0 48px;color:var(--muted);font-size:13.5px;border-top:1px solid var(--line);margin-top:40px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.theme-toggle{background:none;border:1px solid var(--line);border-radius:8px;width:36px;height:36px;cursor:pointer;color:var(--ink)}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap nav">
+    <a class="logo" href="#"><span class="logo-mark">লা</span>Lavkhata</a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#features">Features</a>
+      <a href="#profit">Real profit</a>
+      <a href="#setup">Setup</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div style="display:flex;gap:8px;align-items:center">
+      <button class="theme-toggle" id="theme" aria-label="Toggle dark mode"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+      <a class="btn btn-primary btn-sm" href="#download">Download</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">WooCommerce plugin for Bangladeshi COD shops</span>
+      <h1>Know your <em>real profit</em>, after the courier delivers.</h1>
+      <p class="lead">Book Steadfast and Pathao in one click, stop fake COD orders before they ship, and send Meta only the purchases that were actually paid for.
+        <span class="bn">ডেলিভারির পর আসল লাভ, এক ক্লিকে কুরিয়ার বুকিং, আর ভুয়া COD অর্ডার বন্ধ।</span></p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#download">Download the plugin</a>
+        <a class="btn btn-ghost" href="#features">See what it does</a>
+      </div>
+      <div class="trust"><span>No developer needed</span><span>English &amp; বাংলা</span><span>Starts in safe "Report only" mode</span></div>
+    </div>
+
+    <div class="mock" role="img" aria-label="Example Lavkhata dashboard showing profit and orders">
+      <div class="mock-bar"><i></i><i></i><i></i></div>
+      <div class="mock-body">
+        <div class="kpis">
+          <div class="kpi"><small>Net profit</small><b class="g">৳48,320</b></div>
+          <div class="kpi"><small>Delivery rate</small><b>86%</b></div>
+          <div class="kpi"><small>With courier</small><b>37</b></div>
+        </div>
+        <div class="rows">
+          <div class="row"><span class="id">#2041</span><span><span class="chip good">31 parcels · 94% delivered</span></span><span class="chip info">Steadfast: In transit</span></div>
+          <div class="row"><span class="id">#2040</span><span><span class="chip bad">25 parcels · 40% delivered</span></span><span class="chip warn">Advance ৳150 asked</span></div>
+          <div class="row"><span class="id">#2039</span><span><span class="chip info">New customer</span></span><span class="chip good">Pathao: Delivered</span></div>
+          <div class="row"><span class="id">#2038</span><span><span class="chip good">8 parcels · 100% delivered</span></span><span class="chip good">Confirmed on WhatsApp</span></div>
+        </div>
+        <div class="mock-foot"><span>Break-even cost per purchase: <b>৳362</b> (≈$2.90)</span><span class="chip good">Your ads are profitable</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="features">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Everything a COD shop needs, inside WooCommerce</h2>
+      <p>Six tools that usually come from six places, working together on every order.</p>
+    </div>
+    <div class="features">
+      <article class="feature">
+        <div class="ic" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg></div>
+        <h3>Real profit</h3><div class="bn">আসল লাভ</div>
+        <ul><li>Sales count only when delivered</li><li>Every fee taken off: COD fee, returns, packaging, ad VAT</li><li>Monthly P&amp;L, CSV for your accountant</li><li>Profit shown on every order</li></ul>
+      </article>
+      <article class="feature">
+        <div class="ic" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="7" width="13" height="10" rx="1"/><path d="M14 10h4l3 3v4h-7"/><circle cx="6" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg></div>
+        <h3>Steadfast &amp; Pathao sync</h3><div class="bn">কুরিয়ার বুকিং ও স্ট্যাটাস</div>
+        <ul><li>One-click or bulk booking from the orders list</li><li>Status by webhook immediately, full check every night</li><li>Courier cancel updates your order</li><li>Thermal labels with barcode and items</li></ul>
+      </article>
+      <article class="feature">
+        <div class="ic" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <h3>COD protection</h3><div class="bn">ভুয়া অর্ডার থেকে সুরক্ষা</div>
+        <ul><li>Delivery record on every order: parcels and delivery rate</li><li>Checks Steadfast, Pathao and your own shop</li><li>Risky buyers pay an advance by bKash, Nagad or Rocket</li><li>Or turn off COD for them completely</li></ul>
+      </article>
+      <article class="feature">
+        <div class="ic" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1"/></svg></div>
+        <h3>Meta ads that learn from real buyers</h3><div class="bn">Meta Conversions API</div>
+        <ul><li>One delivered order = one Purchase</li><li>Server-side Conversions API, no GTM or Stape</li><li>Optional browser pixel</li><li>Break-even cost per purchase, with VAT</li></ul>
+      </article>
+      <article class="feature">
+        <div class="ic" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 0 1-13.5 7.8L3 21l1.3-4.4A9 9 0 1 1 21 12z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></div>
+        <h3>WhatsApp confirm</h3><div class="bn">হোয়াটসঅ্যাপে কনফার্ম</div>
+        <ul><li>Customer didn't pick up? Send a one-tap confirm link</li><li>Ready message in Bangla or English</li><li>Optional: hold COD orders until confirmed</li><li>No WhatsApp API account needed</li></ul>
+      </article>
+      <article class="feature">
+        <div class="ic" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 8l-9-5-9 5v8l9 5 9-5z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg></div>
+        <h3>Restock planner</h3><div class="bn">স্টক ও রিঅর্ডার</div>
+        <ul><li>Days of stock left for every product and variation</li><li>When to reorder, with your supplier's lead time</li><li>How many units to buy</li><li>Restock alerts on the dashboard</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="profit">
+  <div class="wrap pnl">
+    <div>
+      <div class="section-head">
+        <h2>Sales aren't profit. Delivered orders are.</h2>
+        <p>Most shop dashboards count a COD order the moment it's placed. Lavkhata waits for the courier, then takes off every real cost.</p>
+      </div>
+      <div class="points">
+        <div class="point"><b>1</b><div><strong>Delivered</strong><p>Sale is counted. Product cost, delivery charge, 1% COD fee and packaging are taken off.</p></div></div>
+        <div class="point"><b>2</b><div><strong>Returned</strong><p>No sale. You still pay delivery, return charge and packaging, so they're counted as losses.</p></div></div>
+        <div class="point"><b>3</b><div><strong>Ads and overheads</strong><p>Ad spend in dollars is converted at your card rate with VAT. Rent, salaries and software come off too.</p></div></div>
+      </div>
+    </div>
+    <div class="ledger" role="table" aria-label="Example monthly profit and loss">
+      <div class="l h"><span>November · example</span><span></span></div>
+      <div class="l"><span>Sales (delivered orders)</span><span>৳4,12,600</span></div>
+      <div class="l"><span>Product cost</span><span class="neg">−৳1,96,300</span></div>
+      <div class="l"><span>Delivery charges</span><span class="neg">−৳31,850</span></div>
+      <div class="l"><span>COD collection fee</span><span class="neg">−৳4,126</span></div>
+      <div class="l"><span>Return charges</span><span class="neg">−৳6,240</span></div>
+      <div class="l"><span>Packaging</span><span class="neg">−৳7,650</span></div>
+      <div class="l sub"><span>Profit before ads</span><span>৳1,66,434</span></div>
+      <div class="l"><span>Ad spend (with 15% VAT)</span><span class="neg">−৳86,250</span></div>
+      <div class="l"><span>Other expenses</span><span class="neg">−৳31,864</span></div>
+      <div class="l total"><span>Net profit</span><span>৳48,320</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Why "delivered" matters for your ads</h2>
+      <p>When fake COD orders are reported to Meta as purchases, Meta finds you more people who order and don't receive. Lavkhata reports a purchase only after delivery.</p>
+    </div>
+    <div class="tbl-scroll">
+    <table class="compare">
+      <thead><tr><th>What Meta is told</th><th>Typical pixel</th><th>Lavkhata</th></tr></thead>
+      <tbody>
+        <tr><td>Fake order placed, never received</td><td>Purchase</td><td class="yes">Nothing</td></tr>
+        <tr><td>Order returned by customer</td><td>Purchase</td><td class="yes">Nothing</td></tr>
+        <tr><td>Order delivered and paid</td><td>Purchase</td><td class="yes">Purchase</td></tr>
+        <tr><td>Blocked by ad blockers / iOS</td><td>Often lost</td><td class="yes">Sent from your server</td></tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+</section>
+
+<section id="setup">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Set up in 15 minutes</h2>
+      <p>No developer, no code. Everything is in Lavkhata → Settings.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><h3>Install</h3><p>WordPress → Plugins → Add New → Upload the zip → Activate.</p></div>
+      <div class="step"><h3>Connect couriers</h3><p>Paste your Steadfast and Pathao API keys from the merchant panel, then click Test connection.</p></div>
+      <div class="step"><h3>Add cost prices</h3><p>Each product gets a "Cost price" field. That's what makes the profit real.</p></div>
+      <div class="step"><h3>Turn on protection</h3><p>Add your bKash / Nagad number for advances, and your Meta pixel if you run ads.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap" style="max-width:820px">
+    <div class="section-head"><h2>Questions</h2></div>
+    <details><summary>Will the courier status change my orders by itself?</summary><p>Only when you allow it. New installs start in "Report only" mode: you see the courier status and a note on each order, but nothing changes. Switch to "Auto-update" when you're comfortable.</p></details>
+    <details><summary>How does it know if a customer is risky?</summary><p>It looks up the phone number's delivery record with Steadfast and Pathao (using your own API keys) and in your own shop's history. If the number has received fewer parcels than your minimum delivery rate, the customer is asked for an advance.</p></details>
+    <details><summary>Do I need a payment gateway for the advance?</summary><p>No. Customers send money to your bKash, Nagad or Rocket number and enter the transaction ID. You tap "I received it" on the order. If you already use an online gateway, risky customers can pay in full there.</p></details>
+    <details><summary>Does it work on Shopify?</summary><p>Not yet. Lavkhata is a WordPress plugin for WooCommerce.</p></details>
+    <details><summary>Does it file my VAT return?</summary><p>No. It gives you a monthly P&amp;L with every fee and a CSV your accountant can use.</p></details>
+    <details><summary>Is it in Bangla?</summary><p>Yes. Every screen is translated. It follows your site language, or you can pick English or বাংলা in the settings.</p></details>
+  </div>
+</section>
+
+<section id="download">
+  <div class="wrap">
+    <div class="download">
+      <div>
+        <h2>Get Lavkhata</h2>
+        <p>Download the plugin zip and upload it to your WordPress site.</p>
+        <p class="req">Needs WordPress 6.4+, WooCommerce 8+, PHP 7.4+. Advance payment works on the classic checkout.</p>
+      </div>
+      <div><a class="btn" href="download/lavkhata-1.0.0.zip" download>Download v1.0.0 (.zip)</a></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Lavkhata · লাভখাতা</span>
+    <span>Not affiliated with Steadfast, Pathao, Meta or WhatsApp. Their names are used only to describe compatibility.</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var root = document.documentElement, key = 'lvk-theme';
+  try { var saved = localStorage.getItem(key); if (saved) root.setAttribute('data-theme', saved); } catch (e) {}
+  document.getElementById('theme').addEventListener('click', function(){
+    var dark = root.getAttribute('data-theme') ? root.getAttribute('data-theme') === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+    var next = dark ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem(key, next); } catch (e) {}
+  });
+})();
+</script>
+</body>
+</html>
