@@ -65,7 +65,8 @@ final class Plugin {
 		load_plugin_textdomain( 'lavkhata', false, dirname( plugin_basename( LVK_FILE ) ) . '/languages' );
 		if ( 'bn_BD' === Settings::get( 'language' ) ) {
 			unload_textdomain( 'lavkhata' );
-			load_textdomain( 'lavkhata', LVK_DIR . 'languages/lavkhata-bn_BD.mo', 'bn_BD' );
+			// File it under the current locale: WordPress only reads translations for that one.
+			load_textdomain( 'lavkhata', LVK_DIR . 'languages/lavkhata-bn_BD.mo', determine_locale() );
 		}
 	}
 

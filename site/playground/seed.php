@@ -31,6 +31,7 @@ Lavkhata\Settings::update(
 		'label_phone'   => '01700000000',
 		'cod_use_steadfast' => 0,
 		'cod_use_pathao'    => 0,
+		'cod_min_parcels'   => 2, // So a customer with 2 returns counts as risky in the demo.
 	)
 );
 
